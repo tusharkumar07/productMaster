@@ -1,0 +1,889 @@
+.navContainer {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0px 0px 100vw 100vw;
+    overflow-x: hidden;
+    align-items: flex-start;
+}
+.wrapperImg{
+    background-image: url('../img/bodyIcons.png');
+    background-size: contain;
+    background-repeat: repeat;
+}
+.background-example {
+    background-color: #f0f0f0;
+    width: fit-content;
+    height: fit-content;
+    background-image: url('../img/overlay.png');
+    background-repeat: repeat;
+    background-size: cover; /* Adjust this value as needed */
+    background-position: center; /* Adjust this value as needed */
+  }
+.logoImg {
+    width: 8vw;
+    height: 12vh;
+    margin-top: 2rem;
+}
+
+.headerText {
+    font-family: Helvetica Neue LT Std;
+    font-weight: bolder;
+    position: absolute;
+    top: 13rem;
+    left: 5rem;
+    margin-bottom: 1rem;
+    width: 34rem;
+    font-size: 3rem;
+}
+
+.headerMain {
+    overflow: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header1,
+.header2,
+.header3,
+.header4 {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.MainMaster {
+    margin: 3.5rem 0rem;
+    text-align: center;
+}
+
+.text2Master {
+    margin-top: 3.5rem;
+}
+
+.masterImg1 {
+    margin-top: 5rem;
+}
+
+.ellipseBox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+}
+
+.row1 {
+    display: inline;
+}
+
+.row {
+    display: flex;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.abc1 {
+    flex-wrap: wrap;
+    display: flex;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-2 * var(--bs-gutter-x));
+}
+
+.abc {
+    flex-wrap: wrap;
+    display: flex;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.ellipseBox>h1 {
+    margin-top: 3rem;
+    margin-left: -6rem;
+}
+
+.ellipseBox>img {
+    width: 10vw;
+    height: 20vh;
+}
+
+.text2 {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica Neue LT Std;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 136.687%;
+}
+
+.aboutMaster {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutMaster>img {
+    height: 15vh;
+    width: 7vw;
+}
+
+.aboutMaster>h1 {
+    margin-left: -2rem;
+    margin-top: 2.6rem;
+}
+
+.paragraph {
+    width: 60rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.paragraph p {
+    width: auto;
+    font-size: x-large;
+}
+
+.paragraph2 {
+    background-color: white;
+    width: 34rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.input1 {
+    border: 1px dashed black;
+    padding: 1rem 2rem;
+    margin: 2rem 0rem 0 8.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.input2 {
+    border: 1px dashed black;
+    padding: 0.2rem 2rem;
+    margin: 0rem 0rem 0 8.5rem;
+    border-radius: 0.5rem;
+}
+
+.btnWidth {
+    width: 15rem;
+    margin: 1rem 0rem 0 11rem;
+}
+
+.footer {
+    border-top: 1px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem 6rem 0 6rem;
+    padding-top: 2rem;
+}
+
+.footerLogo {
+    height: 10vh;
+    margin-top: 2.4rem;
+}
+
+.footerPay {
+    width: 20vw;
+    height: 7vh;
+    margin-top: 2.4rem;
+}
+
+.footerAdd {
+    margin-top: 2.4rem;
+}
+
+.linkbtn {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0%;
+    margin-top: auto;
+    border-radius: 3px;
+    border: none;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    position: relative;
+}
+
+.policy {
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+}
+
+.policy:hover {
+    transform: scale(1.1);
+}
+
+.nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #070706;
+}
+
+.masterimg1,
+.masterimg2,
+.masterimg3,
+.masterimg4 {
+    width: 81px;
+    height: 81px;
+}
+
+.masterText1 {
+    font-weight: bold;
+    width: 10rem;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+.masterText2 {
+    font-weight: 500;
+    width: 10rem;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: -1rem
+}
+
+.masterText3 {
+    font-weight: 450;
+    width: 10rem;
+    text-align: left;
+    margin-left: 3rem
+}
+
+.masterText4 {
+    font-weight: 450;
+    width: 10rem;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: -1rem;
+}
+
+.masterMain1,
+.masterMain2,
+.masterMain3,
+.masterMain4 {
+    width: 15rem;
+}
+
+.custImg1,
+.custImg2,
+.custImg3 {
+    position: relative;
+    width: 81px;
+    height: 81px;
+}
+
+.cust1,
+.cust2,
+.cust3 {
+    position: relative;
+    width: 15rem;
+}
+
+.store {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgPay1 {
+    position: absolute;
+    top: 22.6rem;
+    left: 22rem;
+    width: 10vw;
+    height: 7vh;
+}
+
+.imgPay2 {
+    position: absolute;
+    top: 21.8rem;
+    left: 12rem;
+    width: 10vw;
+    height: 10vh;
+}
+
+.imgPay:hover,
+.imgPay1:hover,
+.imgPay2:hover {
+    cursor: pointer;
+}
+
+.footPlayApp {
+    margin-top: 2rem;
+}
+
+.footApp,
+.footPlay {
+    width: 8rem;
+}
+
+.instImg {
+    background-color: transparent;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navBtn {
+    position: absolute;
+    top: 5%;
+    right: 2%;
+}
+#accordion {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 2rem;
+}
+.footerAdd1,.footerAdd2{
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 590px) {
+    #spann {
+        width: 0%;
+        height: 0%;
+    }
+
+    .navContainer {
+        width: 100%;
+        height: 80vh;
+        border-radius: 0px 0px 100vw 100vw;
+        overflow-x: hidden;
+        align-items: flex-start;
+    }
+    .footer{
+        position: relative;
+        overflow: hidden;
+    }
+
+    .headerText {
+        z-index: 1;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    #navbarNav {
+        background-color: white;
+        height: auto;
+    }
+
+    .nav-link.active::after {
+        width: 20%;
+        margin-right: 2rem;
+    }
+
+    .linkbtn {
+        top: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .logoImg {
+        width: 6rem;
+    }
+
+    .header1,
+    .header2,
+    .header3,
+    .header4 {
+        margin-left: 0.5rem;
+    }
+
+    .headerText {
+        width: 100%;
+        font-size: 2.5rem;
+        margin-right: 1rem;
+        flex-wrap: wrap;
+        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
+        margin-left: -5rem;
+        word-wrap: break-word;
+        z-index: 1;
+    }
+
+    #navbarNav {
+        background-color: white;
+        height: auto;
+
+        z-index: 2;
+    }
+
+    .store {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ellipseBox>h1>span {
+        display: none;
+        height: 0;
+        width: 0;
+    }
+
+    .ellipseBox>h1 {
+        margin-top: -5rem;
+        font-weight: 700;
+        margin-left: -3rem;
+        font-size: 2.1rem;
+    }
+
+    .ellipseBox>img {
+        height: 4rem;
+        width: 4rem;
+        margin-top: -6rem;
+        margin-left: -3rem;
+    }
+
+    .linkbtn a {
+        width: max-content;
+    }
+
+    .masterMain1,
+    .masterMain2,
+    .masterMain3,
+    .masterMain4 {
+        width: 15rem;
+        margin: 0rem 1rem 2rem 2.5rem;
+    }
+
+    .masterimg1,
+    .masterimg2,
+    .masterimg3,
+    .masterimg4 {
+        width: 35vw;
+        height: 21vh;
+        margin-bottom: 0.7rem;
+    }
+
+    .masterText1,
+    .masterText2,
+    .masterText3,
+    .masterText4 {
+        font-size: 2;
+        margin: 0;
+        padding: 0;
+        width: 15rem;
+    }
+
+    .cust1,
+    .cust2,
+    .cust3 {
+        width: 15rem;
+    }
+
+    .card-body {
+        width: 100%;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .aboutMaster>img {
+        height: 5rem;
+        width: 4rem;
+        margin-top: 1rem;
+    }
+
+    .input1 {
+        width: 18rem;
+        margin: 1rem 1rem 1rem 3rem;
+        border: dotted;
+    }
+
+    .input2 {
+        width: 18rem;
+        margin: 2rem 1rem 2rem 3rem;
+        border: dotted;
+    }
+
+    .btnWidth {
+        width: 18rem;
+        margin: 0rem 1rem 1rem 3rem;
+    }
+
+    .paragraph,
+    .sec,
+    .paragraph2 {
+
+        margin-left: 0;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .paragraph>p {
+        text-align: justify;
+    }
+    .paragraph p {
+        width: auto;
+        font-size: large;
+    }
+
+    .footer {
+        border-top: 2.5px dashed black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 1rem 1.5rem 0 1.5rem;
+        padding-top: 2rem;
+    }
+    .footerAdd1{
+        margin-top: 1rem;
+    }
+    .footerAdd2{
+        margin-top: -1rem;
+    }
+
+    .footerLogo {
+        height: 0vh;
+    }
+
+    .address {
+        margin-top: -3rem;
+    }
+
+    .footPlayApp {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1rem;
+    }
+
+    .footApp {
+        height: 2.7rem;
+        margin-top: 0.7rem;
+    }
+
+    .footPlay {
+        height: 4rem;
+    }
+
+    .footApp:hover,
+    .footPlay:hover {
+        cursor: pointer;
+    }
+
+    .footerAdd {
+        font-weight: 600;
+        font-size: large;
+        margin-top: 1rem
+    }
+
+    .row {
+        display: flex;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(5 * var(--bs-gutter-x));
+    }
+
+    .imgPay1,
+    .imgPay2 {
+        position: relative;
+        top: -290px;
+        left: 170px;
+        width: 135px;
+    }
+
+    .navBtn {
+        position: relative;
+        left: 22px;
+    }
+
+    .policy {
+        margin-top: 1rem;
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navContainer {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0px 0px 100vw 100vw;
+        overflow-x: hidden;
+        align-items: flex-start;
+    }
+
+    .imgPay1,
+    .imgPay2 {
+        position: relative;
+        top: -350px;
+        left: 18rem;
+        width: 135px;
+    }
+
+    .overlay-image3 {
+
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .nav-link.active::after {
+        width: 20%;
+        margin-right: 2rem;
+    }
+
+    #navbarNav {
+        background-color: white;
+        height: auto;
+
+        z-index: 2;
+    }
+
+    .linkbtn {
+        top: 5rem;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+
+    .logoImg {
+        width: 6rem;
+    }
+
+    .header1,
+    .header2,
+    .header3,
+    .header4 {
+        margin-left: 0.5rem;
+    }
+
+    .headerText {
+        width: 100%;
+        margin-bottom: 0.5rem;
+        font-size: 2.5rem;
+        margin-right: 1rem;
+        margin-left: -1rem;
+        z-index: 1;
+        word-wrap: break-word;
+    }
+
+    .store {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ellipseBox>h1>span {
+        display: none;
+        height: 0;
+        width: 0;
+    }
+
+    .ellipseBox>h1 {
+        margin-top: -5rem;
+        font-weight: 700;
+        margin-left: -3rem;
+        font-size: 2.1rem;
+    }
+
+    .ellipseBox>img {
+        height: 4rem;
+        width: 4rem;
+        margin-top: -6rem;
+        margin-left: -3rem;
+    }
+
+    .linkbtn a {
+        width: max-content;
+    }
+
+    .masterMain1,
+    .masterMain2,
+    .masterMain3,
+    .masterMain4 {
+        width: 15rem;
+        margin: 0rem 1rem 2rem 2.5rem;
+    }
+
+    .masterimg1,
+    .masterimg2,
+    .masterimg3,
+    .masterimg4 {
+        width: 35vw;
+        height: 21vh;
+        margin-bottom: 0.7rem;
+    }
+
+    .masterText1,
+    .masterText2,
+    .masterText3,
+    .masterText4 {
+        font-size: 2;
+        margin: 0;
+        padding: 0;
+        width: 15rem;
+    }
+
+    .cust1,
+    .cust2,
+    .cust3 {
+        width: 15rem;
+        margin-left: 1rem;
+    }
+
+    .card-body {
+        width: 100%;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .aboutMaster>img {
+        height: 5rem;
+        width: 4rem;
+        margin-top: 1rem;
+    }
+
+    .input1 {
+        width: 18rem;
+        margin: 1rem 1rem 1rem 3rem;
+        border: dotted;
+    }
+
+    .input2 {
+        width: 18rem;
+        margin: 2rem 1rem 2rem 3rem;
+        border: dotted;
+    }
+
+    .btnWidth {
+        width: 18rem;
+        margin: 0rem 1rem 1rem 3rem;
+    }
+
+    .paragraph,
+    .sec,
+    .paragraph2 {
+
+        margin-left: 0;
+        padding: 0 1rem 0 1rem;
+    }
+
+    .paragraph>p {
+        text-align: justify;
+    }
+
+    .footer {
+        border-top: 2.5px dashed black;
+        display: flex;
+
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 1rem 1.5rem 0 1.5rem;
+        padding-top: 2rem;
+    }
+
+    .footerLogo {
+        height: 0vh;
+    }
+
+    .address {
+        margin-top: -3rem;
+    }
+
+    .footPlayApp {
+        display: flex;
+        flex-direction: row;
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+
+    .footApp {
+        height: 2.7rem;
+        margin-top: 0.7rem;
+    }
+
+    .footPlay {
+        height: 4rem;
+    }
+
+    .footApp:hover,
+    .footPlay:hover {
+        cursor: pointer;
+    }
+
+    .footerAdd {
+        font-weight: 600;
+        font-size: large;
+        margin-top: 1rem
+    }
+
+    .row {
+        display: flex;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(5 * var(--bs-gutter-x));
+    }
+
+    .navBtn {
+        position: relative;
+        left: 22px;
+    }
+
+    .policy {
+        width: fit-content;
+    }
+
+    #abcd {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1026px) {
+    #navbarNav {
+        background-color: transparent;
+        height: auto;
+        /* Add more styles as needed */
+    }
+}
+
+@media (min-width:740px) and (max-width:1023px) {
+    .overlay-image3 {
+
+        pointer-events: none;
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        max-width: 0%;
+        max-height: 0%;
+        width: 0;
+        height: 0;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .navBtn {
+        top: 5%;
+        position: absolute;
+        left: 87%;
+    }
+}
