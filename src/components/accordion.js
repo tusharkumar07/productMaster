@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+//comment for deployment
 const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) => {
   const isActive = activeIndex === index;
 
