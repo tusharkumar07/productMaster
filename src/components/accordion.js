@@ -10,7 +10,6 @@ const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) 
       setActiveIndex(index);
     }
   };
-
   const accordionItemStyle = {
     width: "100%",
     borderBottom: "1px solid #ccc",
