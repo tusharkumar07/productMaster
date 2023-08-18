@@ -1,0 +1,83 @@
+.Fnavbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.Fnavbar-links {
+    list-style: none;
+    padding: 0;
+    margin-left: 60%;
+    display: flex;
+}
+
+.Fnavbar-links li {
+    margin-right: 20px;
+}
+
+.Fnavbar-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Fnavbar-toggle {
+    display: none;
+    margin-left:97%;
+    order: 1; /* Reorder toggle button to be last */
+}
+
+.Fnavbar-toggle-label {
+    cursor: pointer;
+}
+
+.Fnavbar-toggle-icon {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Fnavbar-toggle-icon:before,
+.Fnavbar-toggle-icon:after {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Fnavbar-toggle-icon:before {
+    top: -8px;
+}
+
+.Fnavbar-toggle-icon:after {
+    top: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .Fnavbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        margin-left: 60; /* Adjust position to the right */
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+    }
+
+    .Fnavbar-links.active {
+        display: flex;
+    }
+
+    .Fnavbar-toggle {
+        display: block;
+    }
+}

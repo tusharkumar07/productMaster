@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-//comment for deployment
+
 const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) => {
   const isActive = activeIndex === index;
 
@@ -10,7 +10,6 @@ const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) 
       setActiveIndex(index);
     }
   };
-
   const accordionItemStyle = {
     width: "100%",
     borderBottom: "1px solid #ccc",
@@ -24,7 +23,7 @@ const AccordionItem = ({ header, content, activeIndex, index, setActiveIndex }) 
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "10px 20px",
+    padding: "8px 16px",
     fontWeight: "bold",
     cursor: "pointer",
     backgroundColor: "#ffff",
@@ -61,7 +60,7 @@ const App = () => {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    width: "1200px",
+    width: "70%",
     backgroundColor: "#fff",
     borderRadius: "8px",
     boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.2)",

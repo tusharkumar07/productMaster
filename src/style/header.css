@@ -5,20 +5,13 @@
     overflow-x: hidden;
     align-items: flex-start;
 }
-.wrapperImg{
+
+.wrapperImg {
     background-image: url('../img/bodyIcons.png');
     background-size: contain;
     background-repeat: repeat;
 }
-.background-example {
-    background-color: #f0f0f0;
-    width: fit-content;
-    height: fit-content;
-    background-image: url('../img/overlay.png');
-    background-repeat: repeat;
-    background-size: cover; /* Adjust this value as needed */
-    background-position: center; /* Adjust this value as needed */
-  }
+
 .logoImg {
     width: 8vw;
     height: 12vh;
@@ -179,6 +172,7 @@ body {
 }
 
 .footer {
+    
     border-top: 1px dashed black;
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +180,9 @@ body {
     justify-content: space-around;
     margin: 2rem 6rem 0 6rem;
     padding-top: 2rem;
+}
+#contactUs{
+    margin-top: 2rem;
 }
 
 .footerLogo {
@@ -202,14 +199,22 @@ body {
 .footerAdd {
     margin-top: 2.4rem;
 }
+.indiaImg{
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
 
 .linkbtn {
     margin-left: 5px;
     margin-right: 5px;
     padding: 0%;
+    background-color: transparent;
     margin-top: auto;
     border-radius: 3px;
     border: none;
+    width: 50px;
+    height: 50px;
 }
 
 .navbar-nav .nav-item .nav-link.active {
@@ -334,7 +339,11 @@ body {
     width: 8rem;
 }
 
+.faceImg,
+.twitterImg,
 .instImg {
+    width: 50px;
+    height: 50px;
     background-color: transparent;
 }
 
@@ -347,14 +356,20 @@ body {
     top: 5%;
     right: 2%;
 }
+
 #accordion {
     margin-top: 3rem;
     margin-left: 3rem;
     margin-right: 2rem;
 }
-.footerAdd1,.footerAdd2{
+
+.footerAdd1,
+.footerAdd2 {
     font-weight: 700;
 }
+/* .india{
+    margin-left: 3.8rem;
+} */
 
 
 @media screen and (max-width: 590px) {
@@ -370,7 +385,8 @@ body {
         overflow-x: hidden;
         align-items: flex-start;
     }
-    .footer{
+
+    .footer {
         position: relative;
         overflow: hidden;
     }
@@ -395,10 +411,19 @@ body {
     }
 
     .linkbtn {
+        width: 30px;
+        height: 30px;
         top: 5rem;
-        left: 50%;
+        left: 52%;
         transform: translateX(-50%);
 
+    }
+    .twitterImg,
+    .faceImg,
+    .instImg {
+        width: 30px;
+        height: 30px;
+        background-color: transparent;
     }
 
     .logoImg {
@@ -427,7 +452,7 @@ body {
     #navbarNav {
         background-color: white;
         height: auto;
-
+        margin-left: 60%;
         z-index: 2;
     }
 
@@ -532,6 +557,7 @@ body {
     .paragraph>p {
         text-align: justify;
     }
+
     .paragraph p {
         width: auto;
         font-size: large;
@@ -545,10 +571,12 @@ body {
         margin: 1rem 1.5rem 0 1.5rem;
         padding-top: 2rem;
     }
-    .footerAdd1{
+
+    .footerAdd1 {
         margin-top: 1rem;
     }
-    .footerAdd2{
+
+    .footerAdd2 {
         margin-top: -1rem;
     }
 
@@ -556,8 +584,13 @@ body {
         height: 0vh;
     }
 
-    .address {
+    .address{
         margin-top: -3rem;
+    }
+    .india{
+        position: absolute;
+        left: 0%;
+        margin-top: -2rem;
     }
 
     .footPlayApp {
@@ -603,8 +636,8 @@ body {
     }
 
     .navBtn {
+        left:20px;
         position: relative;
-        left: 22px;
     }
 
     .policy {
@@ -634,7 +667,10 @@ body {
         left: 18rem;
         width: 135px;
     }
-
+    .india{
+        position: absolute;
+        margin-top: -2rem;
+    }
     .overlay-image3 {
 
         pointer-events: none;
@@ -654,7 +690,7 @@ body {
     #navbarNav {
         background-color: white;
         height: auto;
-
+        margin-left: 60%;
         z-index: 2;
     }
 
@@ -844,7 +880,6 @@ body {
 
     .navBtn {
         position: relative;
-        left: 22px;
     }
 
     .policy {
