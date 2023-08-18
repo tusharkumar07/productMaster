@@ -11,7 +11,7 @@ import img3 from "../img/Group 207.png"
 import new1 from "../img/new.jpg";
 import twitter from ".././img/twitter.png"
 import india from "../img/india.png"
-import instagram from "../img/Instagram.png";
+import instagram from "../img/instagram.png";
 import facebook from "../img/facebook.png";
 import youtube from ".././img/youtube.png"
 import pdf from ".././img/pdf.png"
