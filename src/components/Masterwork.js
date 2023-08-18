@@ -1,5 +1,6 @@
 import React from "react";
 import "../style/header.css";
+//adding comment
 import vectorImg from "../img/Vector.png";
 import EllipseImg from "../img/Ellipse 7.png";
 import Ellipse20 from "../img/Ellipse 20.png";
