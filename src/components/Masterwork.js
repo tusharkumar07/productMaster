@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/header.css";
-//adding comment
 import vectorImg from "../img/Vector.png";
 import EllipseImg from "../img/Ellipse 7.png";
 import Ellipse20 from "../img/Ellipse 20.png";
@@ -241,7 +240,6 @@ export default function Masterwork() {
           <button class="linkbtn"><a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="" className="twitterImg" /></a></button>
           <button class="linkbtn"><a href="https://www.youtube.com/watch?v=ZooZYlTGym4&t=7s" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="" className="youtubeImg" /></a></button>
           <br/>
-          {/* adding changes */}
           <br/>
           <p className = "india"><b>Made in India</b><img src={india} alt="" className="indiaImg" /> </p>
         </div>
