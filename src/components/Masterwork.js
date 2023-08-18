@@ -10,13 +10,12 @@ import img2 from "../img/Group 205.png"
 import img3 from "../img/Group 207.png"
 import new1 from "../img/new.jpg";
 import twitter from ".././img/twitter.png"
-import instagram from "../img/instagram.png";
+import india from "../img/india.png"
+import instagram from "../img/Instagram.png";
 import facebook from "../img/facebook.png";
 import youtube from ".././img/youtube.png"
 import pdf from ".././img/pdf.png"
-import circle from ".././img/circle.png"
 import Accordion2 from "./accordion";
-import overlay from "../img/overlay.png";
 import overlayy from "../img/overlayy.png";
 import WhatsAppButton from "./whatsapp";
 import lady1 from "../img/lady1.png"
@@ -221,6 +220,7 @@ export default function Masterwork() {
               <div className="inputForm" style={{ width: "20rem" }}>
                 <input type="text" placeholder="We would love to hear from you." className="input1 form-control mb-3 " />
                 <input type="email" placeholder="Enter your email Id" className="input2 form-control mb-3" />
+                <input type="mobile" placeholder="Enter your Mobile No." className="input2 form-control mb-3" />
                 <button className="btn btn-warning btnWidth " >Submit</button>
               </div>
             </div>
@@ -239,11 +239,20 @@ export default function Masterwork() {
           <button class="linkbtn"><a href="https://www.facebook.com/MasterJiOnlineTailor" target="_blank" rel="noopener noreferrer"><img src={facebook} alt="" className="faceImg" /></a></button>
           <button class="linkbtn"><a href="https://twitter.com/home?lang=en" target="_blank" rel="noopener noreferrer"><img src={twitter} alt="" className="twitterImg" /></a></button>
           <button class="linkbtn"><a href="https://www.youtube.com/watch?v=ZooZYlTGym4&t=7s" target="_blank" rel="noopener noreferrer"><img src={youtube} alt="" className="youtubeImg" /></a></button>
+          <br/>
+          <br/>
+          <p className = "india"><b>Made in India</b><img src={india} alt="" className="indiaImg" /> </p>
         </div>
-        <p className="footerAdd1">Blog</p>
-        <p className="footerAdd2">Privacy Policies
-          <button class="policy"><a href="https://docs.google.com/document/d/18VTHF6B-OkMXmDctsJPDM_G1qiv0SbNapPXu071xTdg/edit" target="_blank" rel="noopener noreferrer"><img src={pdf} alt="" className="pdfImg" /></a></button>
+        
+        <div>
+        <p className="footerAdd"><b>Blogs</b></p>
+        <p className="footerAdd"><b>Privacy Policy</b>
+          <button class="policy">
+            <a href="https://docs.google.com/document/d/18VTHF6B-OkMXmDctsJPDM_G1qiv0SbNapPXu071xTdg/edit" target="_blank" rel="noopener noreferrer">
+              <img src={pdf} alt="" className="pdfImg" />
+            </a></button>
         </p>
+        </div>
         <WhatsAppButton />
       </div>
     </>
